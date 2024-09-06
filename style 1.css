@@ -1,0 +1,27 @@
+body {
+    /* background-color: pink; */
+    background-image: url("https://i.pinimg.com/originals/4d/df/ac/4ddfacf35b0ebc0efd87e0493b0c21cc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.menu {
+background: #e298c1;
+}
+
+.menu ul {
+    display:flex;
+    flex-direction: column;
+}
+
+.menu li {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:darkorchid
+}
