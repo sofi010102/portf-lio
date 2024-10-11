@@ -51,3 +51,7 @@ header .menu-desktop nav ul li a {
     text-decoration: none;
     margin-top: 0px;
 }
+
+section .autobiografia {
+    background-color:url("kur.jpg");
+}
