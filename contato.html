@@ -6,52 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Contato</title>
-    <!-- Google fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;100;100;100&display=swap" rel="stylesheet">
-    <!-- /Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px; /* Tamanho padrão da fonte */
+        }
+        h1 {
+            font-size: 24px; /* Tamanho do título */
+        }
+        img {
+            width: 50px; /* Tamanho da imagem */
+            height: 50px; /* Manter proporção */
+        }
+    </style>
+    <!-- /Google Fonts -->
 </head>
- <body> 
- <!-- Mais de uma opção: -->
-<input type='radio'name='compras'valor='.'>Email: 
-<input type='radio'name='compras'valor='.'>Instagram: 
- <input type='radio'name='compras'valor='.'>WhatsApp: 
-<!-- Texto: -->
-<label for ='name'>Primeiro nome:</label>
-<input type='text'name='nome'valor='.'>
-<!-- Senha: -->
-<input type='password'name='nome'valor='.'>
-<!-- Data -->
-<input type='datetime-local'name='nome'valor='.'>
-<label for ="data"></label>
-<form>
-<h1 align=center><font size=10><font><font face="Edwardian Script ITC Regular"><font color="black"><font>Contato</p></font></h1>    
-<!-- Texto: -->
-<label for ='name'>Email:</label><input type='text'name='nome'valor='.'><br>
-<label for ='name'>Instagram:</label><input type='text'name='nome'valor='.'><br>
-<label for ='name'>WhatsApp:</label><input type='text'name='nome'valor='.'><br>
-<!-- Data -->
-<!-- <input type='datetime-local'name='nome'valor='.'> -->
-<label for ='data'>Data de nascimento: </label><input type="date"name='data' min="1950-01-01"max="2024-01-01"><br>
-<!-- para telefone só muda para telefone -->
-<label for ='telefone'>Telefone: </label><input type="'tel" name="tel" placeholder="(XX)XXXXX-XXXX"><br>
-Selecione o seu Estado:
-<!-- Dropdown -->
-<select name="Estado">Estado:
-<option value="'SP">São Paulo</option>
-<option value="'RJ">Rio de Janeiro</option>
-<option value="'MG">Minas Gerais</option>
-<option value="'SC">Santa Catarina</option>
-<th><img src="i.png" widht="50" height="50"></th>
-<input type="submit" name="'Enviar"></body><br> 
-<!-- <button type="submit" name="'Enviar">Enviar</button> -->
-<!-- Text área -->
- <textarea rows=5 ></textarea>
-</form>
-<ladel for='senha'>Senha</label>
-<input type ='password' name='Senha'<
 
- </body>
-  </html>
+<body>
+    <form>
+        <h1 align="center" style="font-family: 'Edwardian Script ITC', cursive; color: black;">Contato</h1>
+
+        <!-- Opções de contato -->
+        <label><input type='radio' name='compras' value='.'> Email</label>
+        <label><input type='radio' name='compras' value='.'> Instagram</label>
+        <label><input type='radio' name='compras' value='.'> WhatsApp</label><br>
+
+        <!-- Nome -->
+        <label for='nome'>Primeiro nome:</label>
+        <input type='text' name='nome' value='.'><br>
+
+        <!-- Senha -->
+        <label for='senha'>Senha:</label>
+        <input type='password' name='senha' value='.'><br>
+
+        <!-- Data de nascimento -->
+        <label for='data'>Data de nascimento:</label>
+        <input type="date" name='data' min="1950-01-01" max="2024-01-01"><br>
+
+        <!-- Telefone -->
+        <label for='telefone'>Telefone:</label>
+        <input type='tel' name='tel' placeholder="(XX)XXXXX-XXXX"><br>
+
+        <!-- Estado -->
+        <label for="estado">Selecione o seu Estado:</label>
+        <select name="estado">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="SC">Santa Catarina</option>
+        </select><br>
+
+        <!-- Imagem -->
+        <img src="i.png" alt="Imagem Descritiva"><br>
+
+        <!-- Mensagem -->
+        <label for="mensagem">Mensagem:</label>
+        <textarea rows="5"></textarea><br>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
 
