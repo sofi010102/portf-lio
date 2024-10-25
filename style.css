@@ -33,7 +33,7 @@ header .interface {
 }
 
 header .logo img {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 header .menu-desktop nav ul {
